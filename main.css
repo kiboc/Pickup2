@@ -16,6 +16,13 @@
     height: 200px;
     width: 100mv;
 }
+
+#sec5AboutHigherBox{
+    border: solid yellow 2px;
+    display: flex;
+    justify-content: center;
+
+}
 #sec5AboutBox {
     border: blue 2px solid;
     width: 1000px;
