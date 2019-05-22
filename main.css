@@ -10,8 +10,17 @@
 }
 
 .sec3-events {
-    height: 400px;
     border: solid 1px blue;
+}
+
+.sec3-cardsContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.sec3-eventCard {
+    width: 300px;
+    margin: 20px;
 }
 
 .sec4-createEvents {
