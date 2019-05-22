@@ -1,10 +1,11 @@
 .sec1{
-    border: red solid 1px;
-    height: 150px;
+    border: red solid 3px;
+    height: 100px;
     width: 100mv;
 }
-.sec1-logo{
-    border: purple solid 1px;
-    height: 150px;
-    width: 170px;
+
+.sec2{
+    border: purple solid 3px;
+    height: 300px;
+    width: 100mv;
 }
