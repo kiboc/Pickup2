@@ -16,9 +16,7 @@
         <!-- Image and text --> 
         <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand mr-5" href="#">
-                <img src="https://previews.123rf.com/images/deskcube/deskcube1605/deskcube160500093/57657224-rbol-de-la-insignia-de-la-libertad-vector-de-dise%C3%B1o-gr%C3%A1fico.jpg" width="70" height="70" class="d-inline-block align-center" alt="">
-          Pick-Up & Walk
-            </a>
+                <img src="logopickup2.png" width="70" height="70" class="d-inline-block align-center" alt=""></a>
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
                 <li class="nav-item active">
@@ -146,5 +144,27 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="main.js"></script>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/6.0.2/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#config-web-app -->
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyD_8gcja5irsodJIO28sD11CcrTOpVyERY",
+        authDomain: "pickup-517f4.firebaseapp.com",
+        databaseURL: "https://pickup-517f4.firebaseio.com",
+        projectId: "pickup-517f4",
+        storageBucket: "pickup-517f4.appspot.com",
+        messagingSenderId: "1096135296755",
+        appId: "1:1096135296755:web:d66e13681dcdd1d7"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+
     </body>
 </html>
