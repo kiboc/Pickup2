@@ -75,7 +75,7 @@ html{
 /* seccion about  */
 #sec5About {
     border: red solid 1px;
-    
+    background-color: #0000cc8e;
     width: 100mv;
 
 }
@@ -91,6 +91,7 @@ html{
     width: 75%;
     display: flex;
     justify-content: center;
+    
 }
 
 
