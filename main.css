@@ -92,4 +92,8 @@ h2 {
     padding-left: -15px;
 }
 
-
+#sec7End {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
