@@ -105,12 +105,14 @@ html{
 /* seccion contacto */
 
 #sec6FormHigherBox{
-    border: solid yellow 2px;
     display: flex;
     justify-content: center;
 }
 .sec6FormBox{
-    border: rgb(47, 0, 255) solid 1px;
+    border: grey solid 1px;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    padding-top: 10px;
     
     padding-left: -15px;
 }
