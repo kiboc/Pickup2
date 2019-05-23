@@ -43,10 +43,16 @@ html{
     height: 805px;
     width: 100%;
 }
+
+.btnEvento {
+    background-color: #0000cc;
+    border-color: #0000cc;
+}
 /* diego */
 .sec3-events {
     border: solid 1px blue;
     padding-top: 100px;
+    background-color: #f281445b;
 }
 
 .sec3-cardsContainer {
