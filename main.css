@@ -1,3 +1,17 @@
+body {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+h2 {
+    border: rgb(15, 128, 0) solid 2px;
+    height: 50px;
+    width: 350px;
+    margin-left: 75px;
+    margin-top: 50px;
+    color: #0000cc;
+}
+
+
 html{
     scroll-behavior: smooth;
 }
@@ -55,37 +69,30 @@ html{
 /* seccion about  */
 #sec5About {
     border: red solid 1px;
-    height: 200px;
+    
     width: 100mv;
-    padding-top: 100px;
+
 }
 
 #sec5AboutHigherBox{
     border: solid yellow 2px;
     display: flex;
     justify-content: center;
-
+ 
 }
-#sec5AboutBox {
+.sec5AboutBox {
     border: blue 2px solid;
-    width: 1000px;
+    width: 75%;
     display: flex;
     justify-content: center;
 }
-.subtitulo {
-    border: rgb(15, 128, 0) solid 2px;
-    height: 50px;
-    width: 200px;
-}
-.parrafo {
 
-}
+
 
 #sec6Contact {
     border: red solid 1px;
-    height: 400px;
     width: 100mv;
-    padding-top: 100px;
+
 }
 
 /* seccion contacto */
@@ -95,10 +102,14 @@ html{
     display: flex;
     justify-content: center;
 }
-#sec6FormBox{
+.sec6FormBox{
     border: rgb(47, 0, 255) solid 1px;
-    width: 450px;
     
+    padding-left: -15px;
 }
 
-
+#sec7End {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
