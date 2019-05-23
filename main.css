@@ -69,11 +69,9 @@ html{
 /* seccion about  */
 #sec5About {
     border: red solid 1px;
-    height: 250px;
+    
     width: 100mv;
-  
 
-    padding-top: 100px;
 }
 
 #sec5AboutHigherBox{
@@ -93,9 +91,8 @@ html{
 
 #sec6Contact {
     border: red solid 1px;
-    height: 420px;
     width: 100mv;
-    padding-top: 100px;
+
 }
 
 /* seccion contacto */
@@ -107,7 +104,7 @@ html{
 }
 .sec6FormBox{
     border: rgb(47, 0, 255) solid 1px;
-    width: 450px;
+    
     padding-left: -15px;
 }
 
