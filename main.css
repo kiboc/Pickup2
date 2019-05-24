@@ -89,7 +89,9 @@ html{
     border: solid orangered 2px;
 }
  .parrafo {
-     border: pink 2px solid;
+     border-radius: 5px;
+     padding: 5px;
+     background-color: #f281445b;
  }
 
 
