@@ -7,7 +7,7 @@ h2 {
     height: 50px;
     width: 350px;
     margin-left: 75px;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     color: #0000cc;
 }
 
@@ -52,7 +52,6 @@ html{
 .sec3-events {
     border: solid 1px blue;
     padding-top: 100px;
-    background-color: #f281445b;
 }
 
 .sec3-cardsContainer {
@@ -76,11 +75,12 @@ html{
 
 /* clases de raul  */
 /* seccion about  */
-#sec5About {
+
+.sec5About {
     border: red solid 1px;
-    background-color: #0000cc8e;
-    height: 400px;
+    height: 500px;
     width: 100mv;
+    padding-top: 100px;
 }
 
 #sec5AboutHigherBox{
@@ -91,12 +91,17 @@ html{
 }
 .sec5AboutBox {
     border: blue 2px solid;
+    background-color: whitesmoke;
     width: 75%;
-    display: flex;
-    justify-content: center;
-    
+    margin-top: 40px;
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow:         3px 3px 5px 6px #ccc;
+    padding: 5px;
+    border-radius: 10px;
+}
 
-#sec5AboutBox {
+/* #sec5AboutBox {
     border: black 2px solid;
     border-radius: 5px;
     background-color: rgba(247, 242, 242, 0.685);
@@ -106,19 +111,23 @@ html{
     padding: 10px;
     text-align: justify;
     width: 1000px;
-    /* display: flex;
-    justify-content: center; */
-}
+    display: flex;
+    justify-content: center;
+} */
 
 
-
-#sec6Contact {
+.sec6Contact {
     border: red solid 1px;
     height: 600px;
     width: 100mv;
+    padding-top: 100px;
 }
 
 /* seccion contacto */
+
+.sec6formHigherBox{
+    margin: 20px;
+}
 
 #sec6FormHigherBox{
     display: flex;
@@ -128,9 +137,6 @@ html{
 .sec6FormBox{
     border: grey solid 1px;
     border-radius: 5px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    
     padding-left: -15px;
     border: rgb(47, 0, 255) solid 1px;
     width: 450px;
@@ -138,6 +144,7 @@ html{
     -webkit-box-shadow: 3px 3px 5px 6px #ccc;
     box-shadow:         3px 3px 5px 6px #ccc;
     padding: 10px;
+    margin: 40px;
 }
 
 #sec7End {
