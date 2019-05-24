@@ -50,7 +50,7 @@ html{
 }
 /* diego */
 .sec3-events {
-    border: solid 1px blue;
+    /* border: solid 1px blue; */
     padding-top: 100px;
     background-color: #f281445b;
 }
@@ -69,9 +69,18 @@ html{
 }
 
 .sec4-createEvents {
-    height: 400px;
-    border: solid 1px blue;
+    /* border: solid 1px blue; */
     padding-top: 100px;
+}
+
+.sec4-eventCard {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.form-group4 {
+    padding: 20px 0;
 }
 
 /* clases de raul  */

@@ -32,7 +32,7 @@ const crearEvento = () => {
     //añadir atributos a las partes del div
     divCard.setAttribute("class", "card sec3-eventCard col-sm-12 col-md-6 col-lg-3")
     imgCard.setAttribute("class", "card-img-top")
-    imgCard.setAttribute("src", "...")
+    imgCard.setAttribute("src", "logopickup2.png")
     imgCard.setAttribute("alt", "Card image cap")
     divCardBody.setAttribute("class", "card-body")
     pCard.setAttribute("class", "card-text")
