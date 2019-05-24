@@ -33,3 +33,9 @@ const entrada = () => {
 
 
 btn.addEventListener("click", entrada)
+
+
+let inputEmail = document.getElementById ('inputname')
+let inputName = document.getElementById ('inputName')
+let inputCity = document.getElementById ('inputCity')
+let inputDoubt = document.getElementById ('inputDoubt')
