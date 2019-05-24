@@ -30,13 +30,13 @@ html{
 
 .sec2{
     border: red solid 3px;
-    height: 500px;
+    height: 600px;
     width: 100mv;
 }
 
 .sec2-video{
     border: purple solid 2px;
-    height: 500px;
+    height: 590px;
     overflow: hidden;
 }
 .sec2-video iframe {
@@ -63,6 +63,9 @@ html{
 .sec3-eventCard {
     width: 300px;
     margin: 20px;
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow:         3px 3px 5px 6px #ccc;
 }
 
 .sec4-createEvents {
@@ -76,12 +79,12 @@ html{
 #sec5About {
     border: red solid 1px;
     background-color: #0000cc8e;
+    height: 400px;
     width: 100mv;
-
 }
 
 #sec5AboutHigherBox{
-    border: solid yellow 2px;
+    border: solid rgba(247, 247, 242, 0.678) 2px;
     display: flex;
     justify-content: center;
  
@@ -92,14 +95,27 @@ html{
     display: flex;
     justify-content: center;
     
+
+#sec5AboutBox {
+    border: black 2px solid;
+    border-radius: 5px;
+    background-color: rgba(247, 242, 242, 0.685);
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow:         3px 3px 5px 6px #ccc;
+    padding: 10px;
+    text-align: justify;
+    width: 1000px;
+    /* display: flex;
+    justify-content: center; */
 }
 
 
 
 #sec6Contact {
     border: red solid 1px;
+    height: 600px;
     width: 100mv;
-
 }
 
 /* seccion contacto */
@@ -107,6 +123,7 @@ html{
 #sec6FormHigherBox{
     display: flex;
     justify-content: center;
+
 }
 .sec6FormBox{
     border: grey solid 1px;
@@ -115,6 +132,12 @@ html{
     padding-top: 10px;
     
     padding-left: -15px;
+    border: rgb(47, 0, 255) solid 1px;
+    width: 450px;
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow:         3px 3px 5px 6px #ccc;
+    padding: 10px;
 }
 
 #sec7End {
