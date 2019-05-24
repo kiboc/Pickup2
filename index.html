@@ -37,51 +37,28 @@
         
     </div>    
         <!-- Video -->
-        <div class='container-fluid'>
-          <div class='row'>
-              <div class="sec2 col-sm-12 col-md-12 col-lg-12">
-                  <div class="sec2-video">
-                      <iframe src="http://www.youtube.com/embed/44Gll-AHLBs?&autoplay=1&mute=1&loop=1&playlist=44Gll-AHLBs&amp;html5=" frameborder="0" allowfullscreen></iframe>
-                  </div>
-             </div>
-
-          </div>
-          
+    <div class="sec2">
+        <div class="sec2-video">
+            <iframe src="http://www.youtube.com/embed/44Gll-AHLBs?&autoplay=1&mute=1&loop=1&playlist=44Gll-AHLBs&amp;html5=" frameborder="0" allowfullscreen></iframe>
         </div>
-   
+   </div>
     
         <!-- Events created -->
 
     <div class="sec3-events" id='sec3-events'>
             <h2>Próximos Eventos</h2>
             <div class="container-fluid">
-                <div class="sec3-cardsContainer row">
-                    <div class="card sec3-eventCard col-sm-12 col-md-6 col-lg-3">
+                <div id="sec3-cards" class="sec3-cardsContainer row">
+
+                    <!-- <div class="card sec3-eventCard col-sm-12 col-md-6 col-lg-3">
                         <img class="card-img-top" src="..." alt="Card image cap">
                         <div class="card-body">
                           <h5 class="card-title">Card title</h5>
                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary btnEvento">Go somewhere</a>
+                          <a href="#" class="btn btn-primary">Registrarse</a>
                         </div>
-                      </div>
-        
-                      <div class="card sec3-eventCard col-sm-12 col-md-6 col-lg-3">
-                        <img class="card-img-top" src="..." alt="Card image cap">
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary btnEvento">Go somewhere</a>
-                        </div>
-                      </div>
-        
-                      <div class="card sec3-eventCard col-sm-12 col-md-6 col-lg-3">
-                        <img class="card-img-top" src="..." alt="Card image cap">
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary btnEvento">Go somewhere</a>
-                        </div>
-                      </div>
+                      </div> -->
+      
                 </div>
             </div>
             </div>
@@ -89,6 +66,28 @@
         <!-- Create Event -->
         <div class="sec4-createEvents" id="sec4-createEvents">
             <h2>Crear Evento</h2>
+              <div class="conteiner">
+                <div class="row sec4-eventCard">
+                  <div class="card col-sm-12 col-md-6 col-lg-4">
+                      <!-- <input id="inputNombreEvento" type="text" placeholder="Nombre del evento">
+                      <input id="inputDescripcionEvento" type="text" placeholder="Descripción del evento">
+                      <button id="btnCrearEvento" class="btn btn-primary">Crear Evento</button> -->
+
+                      <!-- <form> -->
+                          <div class="form-group form-group4">
+                            <label for="exampleInputEmail1">Nombre del evento</label>
+                            <input type="text" class="form-control" id="inputNombreEvento" placeholder="Nombre del evento">
+                          </div>
+                          <div class="form-group">
+                            <label for="exampleInputPassword1">Descripción del evento</label>
+                            <input type="text" class="form-control" id="inputDescripcionEvento" placeholder="Descripción del evento">
+                          </div>
+                          <button id="btnCrearEvento" class="btn btn-primary" href="#sec3-events">Crear Evento</button>
+                        <!-- </form> -->
+
+                  </div>
+                </div>
+              </div>    
         </div>
       
     <div class="sec5About" id="sec5About">
@@ -98,11 +97,11 @@
                             <p class="parrafo">Somos una iniciativa joven que busca unir a personas y comunidad a paraticipar en atacar un problema ambiental que nos afecta día a día, éste es el problema de la basura.</p>
                             <p class="parrafo">Para el 2018, la Ciudad de Mexico estaba generando casi 13 mil toneladas de basura diarias, 13% de esta basura está en la calle.</p>
                             <p class="parrafo">Nuestro objetivo es poder luchar encontra de esta indiferencia e involucrar a las personas y comunidades en la solución. Nuestros usuarios pueden crear eventos e identificar la zona, fecha y hora para que otras personas se suman a recoger basura en distintas areas de la Ciudad de Mèxico.</p>
-                    </div>
-            </div>
 
-    </div>
-       
+                      </div>
+            </div>
+    </div> 
+
     <div class="sec6Contact" id="sec6Contact">
             <h2>Contactanos</h2>
             <div class="sec6FormHigherBox" id="sec6FormHigherBox">
@@ -119,17 +118,17 @@
                                   </div>
                               </div>
         
-                                <div class="form-group col-md-6 ciudadBox">
-                                 <label for="inputState">Ciudad</label>
-                                 <select id="inputCity" class="form-control">
-                                 <option selected>Escoge...</option>
-                                 <option>CDMX</option>
-                                 </select>
-                                </div>
+                                    <div class="form-group col-md-6">
+                                            <label for="inputState">Ciudad</label>
+                                            <select id="inputState" class="form-control">
+                                              <option selected>Escoge...</option>
+                                              <option>CDMX</option>
+                                            </select>
+                                        </div>
         
                                     <div class="form-group">
                                       <label for="inputAddress">Duda</label>
-                                      <input type="text" class="form-control" id="inputDoubt" placeholder="Ingresa aqui tu duda o comentario...">
+                                      <input type="text" class="form-control" id="inputAddress" placeholder="Ingresa aqui tu duda o comentario...">
                                     </div>
                                     
                                    
@@ -138,33 +137,12 @@
                                   </form>
                     </div>
             </div>
-            <br>
-        <div id='sec7End'>
-          <span> ©2019 by Pick-Up & Walk</span>
-        </div>
+            
     </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
         
+    <div id='sec7End'>
+      <span> ©2019 by Pick-Up & Walk</span>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -172,27 +150,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="main.js"></script>
+    <script src="diego.js"></script>
 
     <!-- The core Firebase JS SDK is always required and must be listed first -->
     <script src="https://www.gstatic.com/firebasejs/6.0.2/firebase-app.js"></script>
 
     <!-- TODO: Add SDKs for Firebase products that you want to use
         https://firebase.google.com/docs/web/setup#config-web-app -->
-
-    <script>
-      // Your web app's Firebase configuration
-      var firebaseConfig = {
-        apiKey: "AIzaSyD_8gcja5irsodJIO28sD11CcrTOpVyERY",
-        authDomain: "pickup-517f4.firebaseapp.com",
-        databaseURL: "https://pickup-517f4.firebaseio.com",
-        projectId: "pickup-517f4",
-        storageBucket: "pickup-517f4.appspot.com",
-        messagingSenderId: "1096135296755",
-        appId: "1:1096135296755:web:d66e13681dcdd1d7"
-      };
-      // Initialize Firebase
-      firebase.initializeApp(firebaseConfig);
-    </script>
 
     </body>
 </html>
