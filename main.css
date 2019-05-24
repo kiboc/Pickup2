@@ -80,7 +80,13 @@ html{
 .sec5AboutBox {
     border: solid rgb(117, 24, 160) 2px;
     display: flex;
+    justify-content: space-around;
+    width: 100vmax;
     
+}
+
+.parrafoBox {
+    border: solid orangered 2px;
 }
  .parrafo {
      border: pink 2px solid;
