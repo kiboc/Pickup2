@@ -14,6 +14,7 @@ const interes = document.getElementById('interes')
 const btn = document.getElementById ('btn')
 
 const click = () => {
+    event.preventDefault()
     // let inputNameValue = inputName.value
     // let inputAgeValue = inputAge.value
     // let inputEmailValue = inputEmail.value
@@ -32,7 +33,7 @@ const click = () => {
     
     cardEmail.style.display = 'none'
     interes.style.display = 'block'
-    console.log(btn)
+    
 } 
 
 btn.addEventListener("click", click)
