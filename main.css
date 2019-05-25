@@ -51,8 +51,7 @@ html{
 /* diego */
 .sec3-events {
     /* border: solid 1px blue; */
-    padding-top: 100px;
-    
+    padding-top: 100px;  
 }
 
 .sec3-cardsContainer {
@@ -71,7 +70,7 @@ html{
 .sec4-createEvents {
     /* border: solid 1px blue; */
     padding-top: 100px;
-    height: 50vh;
+    height: 70vh;
     background-color:blanchedalmond;
 }
 
@@ -79,6 +78,10 @@ html{
     display: flex;
     justify-content: center;
     margin: 30px 0;
+}
+
+#btnCrearEvento {
+    margin: 10px 0;
 }
 
 .form-group4 {
@@ -96,7 +99,7 @@ html{
 }
 
 #sec5AboutHigherBox{
-    border: solid rgba(247, 247, 242, 0.678) 2px;
+  
     display: flex;
     justify-content: center;
  
@@ -143,7 +146,8 @@ html{
 
 #sec6FormHigherBox{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 
 }
 .sec6FormBox{
@@ -157,6 +161,13 @@ html{
     box-shadow:         3px 3px 5px 6px #ccc;
     padding: 10px;
     margin: 40px;
+    display: block;
+}
+
+.interes{
+    border: black solid 1px;
+    display: none;
+    margin: 150px;
 }
 
 #sec7End {
